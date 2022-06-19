@@ -1,0 +1,1 @@
+docker exec rabbitmq rabbitmqctl %1
