@@ -1,1 +1,1 @@
-docker exec rabbitmq rabbitmqctl %1
+docker exec rabbitmq rabbitmqctl %*

@@ -3,12 +3,13 @@
 services:
   postgres:
     container_name: postgres
-    image: postgres:14
+    image: postgres:15
     restart: always
     ports:
       - 5432:5432
     volumes:
       - data:/var/lib/postgresql/data
+      - ./shared:/mnt/shared
     environment:
       #POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 12345

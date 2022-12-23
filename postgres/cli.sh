@@ -1,1 +1,1 @@
-docker exec -it postgres psql -U postgres $1
+docker exec -it postgres psql -U postgres $@

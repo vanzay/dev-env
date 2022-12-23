@@ -9,6 +9,7 @@ services:
       - 3306:3306
     volumes:
       - data:/var/lib/mysql
+      - ./shared:/mnt/shared
     environment:
       MYSQL_ROOT_PASSWORD: 12345
 
