@@ -1,0 +1,1 @@
+docker exec -it -e VAULT_TOKEN=00000000-0000-0000-0000-000000000000 vault vault $@
