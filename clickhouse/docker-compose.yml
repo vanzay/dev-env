@@ -3,7 +3,7 @@
 services:
   clickhouse:
     container_name: clickhouse
-    image: clickhouse/clickhouse-server:22
+    image: clickhouse/clickhouse-server:23
     restart: always
     ports:
       - 8123:8123

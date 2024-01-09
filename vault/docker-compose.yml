@@ -1,9 +1,9 @@
-﻿version: '3'
+﻿vaavaversion: '3'
 
 services:
   vault:
     container_name: vault
-    image: vault:1.13.1
+    image: vault:1.13.3
     restart: always
     ports:
       - 8200:8200
