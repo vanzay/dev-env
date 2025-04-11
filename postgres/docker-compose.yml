@@ -1,9 +1,7 @@
-﻿version: '3'
-
-services:
+﻿services:
   postgres:
     container_name: postgres
-    image: postgres:16
+    image: postgres:17
     restart: always
     ports:
       - 5432:5432

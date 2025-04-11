@@ -1,9 +1,7 @@
-﻿version: '3'
-
-services:
+﻿services:
   rabbit:
     container_name: rabbitmq
-    image: rabbitmq:3-management
+    image: rabbitmq:4-management
     restart: always
     environment:
       RABBITMQ_DEFAULT_USER: user
